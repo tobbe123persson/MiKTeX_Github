@@ -1,0 +1,8 @@
+{
+    login &tobbe123persson&
+    password = &\Azh9874&
+}
+
+
+$ gh auth login --account_login
+

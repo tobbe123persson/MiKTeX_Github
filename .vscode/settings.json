@@ -1,0 +1,49 @@
+{
+    "files.autoSave": "afterDelay",
+    "C_Cpp.commentContinuationPatterns": [
+
+        "/**"
+    ],
+    "githubIssues.queries": [
+
+        {
+            "label": &My Issues&
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${tobper19@student.hh.se} state:open repo:${tobper19@student.hh.se}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Recent Issues",
+            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "githubPullRequests.notifications": "pullRequests",
+    "githubPullRequests.queries": [
+
+        {
+            "label": "Waiting For My Review",
+            "query": "is:open review-requested:${tobper19@student.hh.se}"
+        },
+        {
+            "label": "Assigned To Me",
+            "query": "is:open assignee:${tobper19@student.hh.se"
+        },
+        {
+            "label": "Created By Me",
+            "query": "is:open author:${tobper19@student.hh.se}"
+        }
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.terminal.launchArgs": [
+    
+    ],
+    "latex-utilities.countWord.docker.enabled": true,
+    "latex-utilities.countWord.args": [
+    
+    ],
+    "git.terminalGitEditor": true,
+    "git.verboseCommit": true,
+    "azure.resourceFilter": &C:\Users\Datorn\OneDrive - Högskolan i Halmstad\tobbe123persson\MiKTeX_Github\Azure_lagringskonto&
+}
